@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tajawal">
+    <title>ادخار المال</title>
+</head>
+
+<body>
+    <section>
+        <div class="plane">
+            <h1>خطط الإدخار</h1>
+            <hr>
+            <div class="theCalculator">
+                <ul>
+                    <li><span>1</span>ادخل المبلغ المراد الإدخار لأجله</li>
+                    <li><span>2</span>عدد الأشهر</li>
+                </ul>
+                <div class="inputs">
+                    <input type="text" class="moneyInput" placeholder="0" value="1000">
+                    <input type="text" class="MonthsInput" placeholder="0" value="5">
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="Calc" onclick="CalcAdkar()">أحسب</button>
+                <button class="RepeatAll" onclick="RepeatAll()">إعادة الضبط</button>
+            </div>
+        </div>
+    </section>
+    <section>
+
+        <div class=" chosePlane">
+            <h1>اختر خطتك</h1>
+            <hr>
+            <div class="boxes">
+                <div class="box">
+                    <h2>ادخار في اليوم</h2>
+                    <div class="money1">-</div>
+                </div>
+                <div class="box">
+                    <h2>ادخار في الأسبوع</h2>
+                    <div class="money2">-</div>
+                </div>
+                <div class="box">
+                    <h2>أدخار في شهر</h2>
+                    <div class="money3">-</div>
+                </div>
+                <div class="box">
+                    <h2>المبلغ الكلي</h2>
+                    <div class="total">-</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+<!-- reference : https://github.com/d11l/d11/blob/calcSave/CalcSave.html -->
