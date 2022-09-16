@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+:root {
+    -mainColor: #3fcb71;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', serif;
+}
+
+body {
+    /* background-color: #3fcb71; */
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    direction: rtl;
+    background-color: #eee;
+    padding: 0 200px;
+}
+
+header .logo {
+    min-width: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #3fcb71;
+    padding: 10px;
+    font-family: serif;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    direction: rtl;
+
+}
+
+header ul li {
+    margin-left: 20px;
+    color: #333;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+header ul li a {
+    text-decoration: none;
+}
+
+section {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+section .Calculatr {
+    max-width: 1080px;
+    width: 100%;
+    padding: 20px;
+    /* background-color: #eee; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #3fcb71 solid 0.5px;
+    box-shadow: #333 5px 5px;
+
+}
+
+section .Calculatr h1 {
+    font-size: 50px;
+    color: #3fcb71;
+
+
+}
+
+
+section .Calculatr hr {
+    width: 90%;
+    margin: 10px 0 50px 0;
+    background-color: #3fcb71;
+    color: #3fcb71;
+    border: #3fcb71 solid 0.5px;
+
+
+
+}
+
+section .Calculatr div.below {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: red; */
+
+}
+
+section .Calculatr div.below div.inputOutput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: blue; */
+    width: 100%;
+    direction: rtl;
+}
+
+section .Calculatr div.below div.inputOutput input {
+
+    margin: 20px 40px;
+    font-size: 30px;
+
+    border: #333 solid 0.5px;
+    /* border: none; */
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+section .Calculatr div.below div.inputOutput .Result {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
+    padding: 10px;
+    padding-right: 80px;
+    border-radius: 5px;
+    font-weight: 800;
+
+
+}
+
+section .Calculatr div.below button.theReulter {
+    margin: 20px 0;
+    font-size: 30px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: #333 solid 0.5px;
+    cursor: pointer;
+    color: #333;
+    color: var(-mainColor);
+    background-color: inherit;
+    /* filter: blur(5px); */
+
+
+
+}
